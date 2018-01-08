@@ -60,6 +60,8 @@ class TodoListViewController: UITableViewController {
             // What woulld happen when user clicks the Add new Button in UIAlert
             
           self.itemArray.append(textField.text!)
+          self.tableView.reloadData()
+            
             
         }
         
